@@ -41,7 +41,7 @@ stages:
        name: Azure Pipelines
        vmImage: 'windows-2019'
       variables: 
-      - group: Az connection settings
+      - group: SentinelAsCode-Caio-VS-Sub_VariablesGoup
       steps:
       - download: current
         artifact: OnboardingFile
